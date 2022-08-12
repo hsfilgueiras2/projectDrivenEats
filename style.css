@@ -1,0 +1,102 @@
+/*comeco do menu topo */
+.topMenu{
+    position:fixed;
+    top: 0%;
+    left:0%;
+    width: 100%;
+    height: 92px;
+    background: #CF2B2B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.topMenu h1{
+font-family: 'Righteous';
+font-style: normal;
+font-weight: 400;
+font-size: 44px;
+line-height: 55px;
+letter-spacing: -0.012em;
+margin-left: 21px;
+color: #FFFFFF;
+}
+.topMenu h2{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+margin-left: 21px;
+color: #FFFFFF;
+}
+/* Fim do menu topo*/
+.content{
+    width:100%;
+    height:900px;
+    background-color: #EEEEEE;
+    margin-top: 92px;
+    margin-bottom: 92px;
+    padding-left: 19px;
+    padding-top: 31px;
+}
+.content h3{
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.018em;
+
+    color: #333333;
+
+
+}
+.content >div{
+    height:216px;
+    margin-top: 17px;
+    margin-bottom: 27px;
+    display:flex;
+    overflow-x: scroll;
+
+}
+.content div div{
+    min-width: 172px;
+    min-height: 216px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    margin-right: 16px;
+}
+/*comeco do menu bottom*/
+.bottomMenu{
+    position:fixed;
+    bottom:0%;
+    left: 0%;
+    height:92px;
+    width:100%;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottomMenu button{
+    box-sizing: border-box;
+    background: #CBCBCB;
+    border-width: 0px;
+    border-color:#CBCBCB;
+    border-radius: 50px;
+    width: 364px;
+    height: 61px;
+}
+.bottomMenu p{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+
+    color: #FFFFFF;
+
+}
+/* fim do menu bottom*/
