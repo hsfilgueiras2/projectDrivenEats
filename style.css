@@ -63,7 +63,11 @@ color: #FFFFFF;
     overflow-x: scroll;
 
 }
-.content div div{
+.content div div:hover{
+    cursor: pointer;
+}
+.content div .prato{
+    position: relative;
     box-sizing: border-box;
     min-width: 172px;
     background: #FFFFFF;
@@ -73,6 +77,37 @@ color: #FFFFFF;
     padding-top: 18px;
     padding-left: 14px;
     padding-right: 14px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.content div .bebida{
+    position: relative;
+    box-sizing: border-box;
+    min-width: 172px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    margin-right: 16px;
+    padding-top: 18px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.content div .sobremesa{
+    position: relative;
+    box-sizing: border-box;
+    min-width: 172px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    margin-right: 16px;
+    padding-top: 18px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 16px;
     display: flex;
     flex-direction: column;
 }
@@ -102,7 +137,6 @@ color: #FFFFFF;
     line-height: 19px;
     color: #000000;
     margin-top: 5px;
-    margin-bottom: 16px;
 }
 /*comeco do menu bottom*/
 .bottomMenu{
@@ -116,7 +150,7 @@ color: #FFFFFF;
     justify-content: center;
     align-items: center;
 }
-.bottomMenu button{
+.bottomButton{
     box-sizing: border-box;
     background: #CBCBCB;
     border-width: 0px;
@@ -138,4 +172,62 @@ color: #FFFFFF;
     color: #FFFFFF;
 
 }
+.activeButton{
+    
+    box-sizing: border-box;
+    background: #32B72F;
+    border-width: 0px;
+    border-color:#CBCBCB;
+    border-radius: 50px;
+    width: 364px;
+    height: 61px;
+}
 /* fim do menu bottom*/
+.selectedPlate{
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+    box-sizing: border-box;
+    min-width: 172px;
+    background: #FFFFFF;
+    border-radius: 9px;
+    margin-right: 16px;
+    padding-top: 18px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.selectedDessert{
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+    box-sizing: border-box;
+    min-width: 172px;
+    background: #FFFFFF;
+    border-radius: 9px;
+    margin-right: 16px;
+    padding-top: 18px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.selectedDrink{
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
+    box-sizing: border-box;
+    min-width: 172px;
+    background: #FFFFFF;
+    border-radius: 9px;
+    margin-right: 16px;
+    padding-top: 18px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}

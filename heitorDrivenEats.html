@@ -22,25 +22,25 @@
     <div class="content">
         <h3>Primeiro, seu prato</h3>
         <div>
-            <div class="prato">
+            <div class="prato" onclick="toggleSelected(this)">
                 <img src="images/chicken.jpg">
                 <h4>Frango acompanhado 1</h4>
                 <p>Acompanhamento 1</p>
                 <h5>R$ 21,99</h5>
             </div>
-            <div class="prato">
+            <div class="prato" onclick="toggleSelected(this)">
                 <img src="images/chicken.jpg">
                 <h4>Frango acompanhado 2</h4>
                 <p>Acompanhamento 2</p>
                 <h5>R$ 22,99</h5>
             </div>
-            <div class="prato">
+            <div class="prato" onclick="toggleSelected(this)">
                 <img src="images/chicken.jpg">
                 <h4>Frango acompanhado 3</h4>
                 <p>Acompanhamento 3</p>
                 <h5>R$ 23,99</h5>
             </div>
-            <div class="prato">
+            <div class="prato" onclick="toggleSelected(this)">
                 <img src="images/chicken.jpg">
                 <h4>Frango acompanhado 4</h4>
                 <p>Acompanhamento 4</p>
@@ -49,25 +49,25 @@
         </div>
         <h3>Agora, sua bebida</h3>
         <div>
-            <div class="bebida">
+            <div class="bebida" onclick="toggleSelected(this)">
                 <img src="images/drink.png">
                 <h4>Drink Generico 1</h4>
                 <p>Sabor de nada 1</p>
                 <h5>R$ 4,99</h5>
             </div>
-            <div class="bebida">
+            <div class="bebida" onclick="toggleSelected(this)">
                 <img src="images/drink.png">
                 <h4>Drink Generico 2</h4>
                 <p>Sabor de nada 2</p>
                 <h5>R$ 5,99</h5>
             </div>
-            <div class="bebida">
+            <div class="bebida" onclick="toggleSelected(this)">
                 <img src="images/drink.png">
                 <h4>Drink Generico 3</h4>
                 <p>Sabor de nada 3</p>
                 <h5>R$ 6,99</h5>
             </div>
-            <div class="bebida">
+            <div class="bebida" onclick="toggleSelected(this)">
                 <img src="images/drink.png">
                 <h4>Drink Generico 4</h4>
                 <p>Sabor de nada 4</p>
@@ -76,25 +76,25 @@
         </div>
         <h3>Por fim, sua sobremesa</h3>
         <div>
-            <div class="sobremesa">
+            <div class="sobremesa" onclick="toggleSelected(this)">
                 <img src="images/dessert.jpg">
                 <h4>Sobremesa 1</h4>
                 <p>Tem essas 1 ai</p>
                 <h5>R$ 7,99</h5>
             </div>
-            <div class="sobremesa">
+            <div class="sobremesa" onclick="toggleSelected(this)">
                 <img src="images/dessert.jpg">
                 <h4>Sobremesa 2</h4>
                 <p>Tem essas 2 ai</p>
                 <h5>R$ 8,99</h5>
             </div>
-            <div class="sobremesa">
+            <div class="sobremesa" onclick="toggleSelected(this)">
                 <img src="images/dessert.jpg">
                 <h4>Sobremesa 3</h4>
                 <p>Tem essas 3 ai</p>
                 <h5>R$ 9,99</h5>
             </div>
-            <div class="sobremesa">
+            <div class="sobremesa" onclick="toggleSelected(this)">
                 <img src="images/dessert.jpg">
                 <h4>Sobremesa 4</h4>
                 <p>Tem essas 4 ai</p>
@@ -103,10 +103,11 @@
         </div>
     </div>
     <div class="bottomMenu">
-        <button>
-            <p>Selecione os 3 itens <br>
+        <button class="bottomButton">
+            <p class="textButton">Selecione os 3 itens <br>
                 para fechar o pedido</p>
         </button>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
