@@ -41,3 +41,11 @@ function toggleSelected(product){
     }
 
 }
+function orderButton(button){
+    if (button.classList.contains("activeButton"))
+    {
+        let encoded = encodeURIComponent("Olá, gostaria de fazer o pedido:\n- Prato: Frango Yin Yang\n- Bebida: Coquinha Gelada\n- Sobremesa: Pudim\nTotal: R$ 27.70");
+        let link = "https://wa.me/5511976790037?text=" + encoded ;
+        parent.open(link);
+    }
+}
